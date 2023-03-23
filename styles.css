@@ -7,11 +7,41 @@ width: 55px;
 }
 
 
-.camera {
+#camera {
 
 width: 120px;
-height: 120px;
+height: 360px;
 
 
 }
 
+#cleaner {
+
+width: 120px;
+height: 360px;
+    
+    
+}
+
+#macbook {
+
+width: 120px;
+height: 360px;
+    
+    
+}
+
+.photobg {
+
+background-color: rgba( 0, 0, 0, .175);
+border-radius: 50px;
+
+
+}
+
+
+@media  screen {
+    
+
+
+}
