@@ -46,6 +46,19 @@ border-radius: 50px;
 
 }
 
+.w-49 {
+
+
+width: 49%;
+
+}
+
+.h-100 {
+
+height: 100%;
+
+}
+
 
 @media  screen {
     
