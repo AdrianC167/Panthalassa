@@ -30,7 +30,7 @@
 <!-- Links -->
 <link href="styles.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -151,6 +151,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -159,18 +160,13 @@
               <li class="nav-item">
                 <a class="nav-link" href="listing.html">Listings</a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link " href="profile.html" >
                     Profile
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="profile.html">View Profile </a></li>
 
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="Account.html">View Account</a></li>
-                </ul>
               </li>
-
+            
             </ul>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-bell-fill d-none d-lg-block d-xl-none animate__animated wow animate__tada" viewBox="0 0 16 16">
                 <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
@@ -179,8 +175,7 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> 
-            </div>
-            
+            </div> 
       </nav>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
       <symbol id="check2" viewBox="0 0 16 16">
@@ -642,12 +637,12 @@
           <hr class="my-4">
 
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="same-address">
+            <input type="checkbox"  id="same-address">
             <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
           </div>
 
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="save-info">
+            <input type="checkbox"  id="save-info">
             <label class="form-check-label" for="save-info">Save this information for next time</label>
           </div>
 
@@ -657,15 +652,15 @@
 
           <div class="my-3">
             <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <input id="credit" name="paymentMethod" type="radio"  checked required>
               <label class="form-check-label" for="credit">Credit card</label>
             </div>
             <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="debit" name="paymentMethod" type="radio"  required>
               <label class="form-check-label" for="debit">Debit card</label>
             </div>
             <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="paypal" name="paymentMethod" type="radio"  required>
               <label class="form-check-label" for="paypal">PayPal</label>
             </div>
           </div>
